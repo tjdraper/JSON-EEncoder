@@ -14,7 +14,7 @@ $plugin_info = array (
 	'pi_author' => 'TJ Draper',
 	'pi_author_url' => 'http://buzzingpixel.com',
 	'pi_description' => 'JSON encode content.',
-	'pi_usage' => Json_encode::usage()
+	'pi_usage' => Json_eencoder::usage()
 );
 
 class Json_eencoder {
