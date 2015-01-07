@@ -10,7 +10,7 @@
 
 $plugin_info = array (
 	'pi_name' => 'JSON EEncoder',
-	'pi_version' => '1.0.0',
+	'pi_version' => '1.0.1',
 	'pi_author' => 'TJ Draper',
 	'pi_author_url' => 'http://buzzingpixel.com',
 	'pi_description' => 'JSON encode content.',
@@ -19,16 +19,11 @@ $plugin_info = array (
 
 class Json_eencoder {
 
-	public function __construct()
-	{
-		$this->EE =& get_instance();
-	}
-
 	public function encode()
 	{
-		$outerQuotes = $this->EE->TMPL->fetch_param('outer_quotes');
+		$outerQuotes = ee()->TMPL->fetch_param('outer_quotes');
 
-		$jsonEncodedContent = json_encode($this->EE->TMPL->tagdata);
+		$jsonEncodedContent = json_encode(ee()->TMPL->tagdata);
 
 		if ($outerQuotes === 'no') {
 			$jsonEncodedContent = rtrim($jsonEncodedContent, '"');
