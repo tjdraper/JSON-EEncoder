@@ -1,4 +1,4 @@
-# JSON EEncoder 1.0.0 for ExpressionEngine
+# JSON EEncoder 2.0.0 for ExpressionEngine 3
 
 JSON encode all content within the tag pair for use in JSON output.
 
