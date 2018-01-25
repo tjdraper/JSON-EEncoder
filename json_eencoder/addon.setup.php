@@ -12,5 +12,5 @@ return array(
     'description' => 'JSON encode content.',
     'name' => 'JSON EEncoder',
     'namespace' => 'BuzzingPixel\Addons\JsonEEncoder',
-    'version' => '2.0.0'
+    'version' => '2.0.1'
 );

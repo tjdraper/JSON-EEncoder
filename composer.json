@@ -1,0 +1,17 @@
+{
+    "name": "tjdraper/json-eencoder",
+    "version": "2.0.1",
+    "description": "JSON encode content.",
+    "type": "ee-add-on",
+    "authors": [
+        {
+            "name": "TJ Draper",
+            "email": "tj@buzzingpixel.com",
+            "homepage": "https://buzzingpixel.com"
+        }
+    ],
+    "extra": {
+        "handle": "json_eencoder",
+        "systemPath": "json_eencoder"
+    }
+}
